@@ -1,0 +1,1 @@
+export default function(){"undefined"!=typeof window&&(window.HTMLElement=function(t){function e(){"undefined"==typeof Reflect||Reflect.construct;const e=this.__proto__.constructor;return Reflect.construct(t,[],e)}return Object.setPrototypeOf(e,t),Object.setPrototypeOf(e.prototype,t.prototype),e}(window.HTMLElement))}

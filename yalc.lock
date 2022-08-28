@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@linteng/airui": {
+      "signature": "995d0dd68d439d0dc6e129882c639b0c",
+      "file": true,
+      "replaced": "^0.0.8"
+    }
+  }
+}

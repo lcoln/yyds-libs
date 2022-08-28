@@ -1,0 +1,1 @@
+var e=function(e,t,r){Object.defineProperty(e.prototype,t,{get(){if(!this===e.prototype)return null;const o=r.call(this);return Object.defineProperty(this,t,{value:o,configurable:!0}),o},configurable:!0})};export{e as default};

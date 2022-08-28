@@ -1,0 +1,1 @@
+const t=t=>"[object String]"===(t=>Object.prototype.toString.call(t))(t);async function e(e){e=t(e)?[e]:e;let o={};for(;e.length;)try{let t=e.shift();o[t]=await import(`./${t}/index.js`)}catch(t){console.log({e:t})}return o}export{e as default};
