@@ -1,9 +1,10 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { installWC } from '@linteng/airui';
+import { installWC } from '@yyds-lib/airui';
 import { useRouter } from 'next/router'
 import 'css-doodle';
 import dynamic from "next/dynamic";
+import Layout from "@/components/layout";
 
 // const { installWC } = dynamic(
 //   () => {
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       history
     }
   }, 'tab-wc'])
-  return <Component {...pageProps} />
+  return <Layout><Component {...pageProps} /></Layout>
 }
 
 export default MyApp

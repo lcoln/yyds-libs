@@ -3,6 +3,31 @@
   height: 100%;
 }
 
+.mod-aside .aside-logo {
+  height: 60px;
+  padding-top: 10px;
+  color: #D34017;
+  background: #1B1521;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: emoji;
+  font-style: italic;
+}
+
+.mod-aside .aside-menu {
+  height: calc(100% - 60px);
+}
+
+.mod-content {
+  height: 100%;
+  /* background: rgb(34, 36, 42); */
+}
+.mod-content .bk {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(68, 94, 208, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
 .container {
   height: 100%;
 }

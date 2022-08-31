@@ -1,6 +1,6 @@
 {
-  "name": "@linteng/airui",
-  "version": "0.0.9",
+  "name": "@yyds-lib/airui",
+  "version": "0.0.1",
   "description": "集成web-component组件库, js插件, 主题库的微型开发框架",
   "author": "linteng <linteng.me@gmail.com>",
   "homepage": "",
@@ -18,6 +18,7 @@
   },
   "scripts": {
     "dev": "cross-env FORMAT=esm ENV=DEV node compile",
+    "dev:auto": "cross-env FORMAT=esm ENV=DEV node compile/autopush",
     "build": "cross-env FORMAT=esm node compile",
     "build:amd": "cross-env FORMAT=amd node compile",
     "build:cjs": "cross-env FORMAT=cjs node compile",
@@ -25,7 +26,8 @@
     "build:iife": "cross-env FORMAT=iife node compile",
     "build:umd": "cross-env FORMAT=umd node compile",
     "build:system": "cross-env FORMAT=system node compile",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local:push": "yalc push"
   },
   "typings": "types/index.d.ts",
   "dependencies": {
@@ -34,5 +36,5 @@
     "react-to-webcomponent": "^1.5.1"
   },
   "type": "module",
-  "yalcSig": "995d0dd68d439d0dc6e129882c639b0c"
+  "yalcSig": "8aaf849f36d27f9bd86b900943aac8ca"
 }

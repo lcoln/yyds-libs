@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['@linteng/airui']);
+const withTM = require('next-transpile-modules')(['@yyds-lib/airui']);
 
 const nextConfig = {
   reactStrictMode: true,
@@ -9,4 +9,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withTM(nextConfig)
+module.exports = nextConfig

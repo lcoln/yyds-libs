@@ -1,10 +1,9 @@
 {
   "version": "v1",
   "packages": {
-    "@linteng/airui": {
-      "signature": "995d0dd68d439d0dc6e129882c639b0c",
-      "file": true,
-      "replaced": "^0.0.8"
+    "@yyds-lib/airui": {
+      "signature": "8aaf849f36d27f9bd86b900943aac8ca",
+      "file": true
     }
   }
 }

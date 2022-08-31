@@ -1,0 +1,160 @@
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+    at pushStyle (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:1914:11)
+    at pushStartCustomElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2694:11)
+    at pushStartInstance (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2911:18)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5636:18)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+    at renderNodeDestructiveImpl (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6076:14)
+    at renderNode (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6259:12)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5642:3)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.
+    at Suspense
+    at Index
+    at MyApp (webpack-internal:///(sc_client)/./pages/_app.tsx:27:18)
+    at StyleRegistry (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/styled-jsx/dist/index/index.js:671:34)
+    at AppContainer (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:280:29)
+    at AppContainerWithIsomorphicFiberStructure (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:309:57)
+    at div
+    at Body (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:596:21)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+    at pushStyle (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:1914:11)
+    at pushStartCustomElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2694:11)
+    at pushStartInstance (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2911:18)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5636:18)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+    at renderNodeDestructiveImpl (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6076:14)
+    at renderNode (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6259:12)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5642:3)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.
+    at Suspense
+    at Index
+    at MyApp (webpack-internal:///(sc_client)/./pages/_app.tsx:27:18)
+    at StyleRegistry (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/styled-jsx/dist/index/index.js:671:34)
+    at AppContainer (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:280:29)
+    at AppContainerWithIsomorphicFiberStructure (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:309:57)
+    at div
+    at Body (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:596:21)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+    at pushStyle (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:1914:11)
+    at pushStartCustomElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2694:11)
+    at pushStartInstance (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:2911:18)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5636:18)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+    at renderNodeDestructiveImpl (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6104:11)
+    at renderNodeDestructive (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6076:14)
+    at renderNode (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6259:12)
+    at renderHostElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5642:3)
+    at renderElement (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5952:5)
+Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.
+    at Suspense
+    at Index
+    at MyApp (webpack-internal:///(sc_client)/./pages/_app.tsx:27:18)
+    at StyleRegistry (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/styled-jsx/dist/index/index.js:671:34)
+    at AppContainer (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:280:29)
+    at AppContainerWithIsomorphicFiberStructure (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:309:57)
+    at div
+    at Body (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:596:21)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.

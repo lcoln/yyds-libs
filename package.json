@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@linteng/airui": "file:.yalc/@linteng/airui",
+    "@yyds-lib/airui": "file:.yalc/@yyds-lib/airui",
     "bignumber.js": "^9.0.2",
     "chart.js": "^3.7.1",
     "css-doodle": "^0.25.1",
@@ -25,6 +25,7 @@
     "@types/react-dom": "17.0.14",
     "autoprefixer": "^10.4.8",
     "eslint": "8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "12.2.5",
     "next-transpile-modules": "^9.0.0",
     "postcss": "^8.4.16",

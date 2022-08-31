@@ -1,14 +1,10 @@
-import type { NextPage } from 'next'
-import Layout from "@/components/layout";
-import Loading from "@/components/loading";
-import { Suspense } from 'react'
-import 'css-doodle'
+import type { NextPage } from 'next';
+import Loading from '@/components/loading';
+import { Suspense } from 'react';
+import 'css-doodle';
 
-const Index: NextPage = (props) => {
+const Index: NextPage = (props) => <Suspense fallback={Loading}>
+    {props.children}
+  </Suspense>;
 
-  return <Suspense fallback={Loading}><Layout>
-    <div>index</div>
-  </Layout></Suspense>
-}
-
-export default Index
+export default Index;
