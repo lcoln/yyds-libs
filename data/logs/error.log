@@ -158,3 +158,11 @@ warn  - You have enabled experimental features (runtime, serverComponents) in ne
 warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
 
 warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.

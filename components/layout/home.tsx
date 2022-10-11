@@ -4,7 +4,7 @@
  * @Autor: linteng
  * @Date: 2022-04-25 13:09:37
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-08-29 22:21:56
+ * @LastEditTime: 2022-09-05 23:05:01
  */
 import { useState, useEffect } from 'react';
 import type { NextPage } from 'next';
@@ -23,73 +23,69 @@ type navConstructor = {
   title: string;
 }
 
-const menuData: {
-  [key: string]: menuConstructor[]
-} = {
-  menu1: [{
-    title: '国际化',
-    childs: [{
-      title: 'web',
-      path: 'tools/overseas/web',
-    }, {
-      title: '游戏端',
-      path: 'tools/overseas/game',
-    }, {
-      title: 'AI',
-      path: 'tools/overseas/ai',
-    }],
+const menuData: menuConstructor[][] = [[{
+  title: '国际化',
+  childs: [{
+    title: 'web',
+    path: 'tools/overseas/web',
   }, {
-    title: '工程化',
-    childs: [{
-      title: '工程化模板',
-      childs: [{
-        title: '面向研发人员',
-        path: 'tools/project/template/engineer',
-      }, {
-        title: '面向产品/运营人员',
-        path: 'tools/project/template/pd',
-      }],
-    }, {
-      title: '约定式路由',
-      childs: [{
-        title: 'react',
-        path: 'tools/project/router/react',
-      }, {
-        title: 'vue',
-        path: 'tools/project/router/vue',
-      }],
-    }, {
-      title: '组件依赖定位',
-      path: 'tools/project/whereis-components',
-    }],
+    title: '游戏端',
+    path: 'tools/overseas/game',
   }, {
-    title: '工程质量',
-    childs: [{
-      title: 'test',
-    }],
-  }, {
-    title: '素材辅助管理',
-    childs: [{
-      title: 'test',
-    }],
+    title: 'AI',
+    path: 'tools/overseas/ai',
   }],
-  menu2: [{
-    title: '跨端',
+}, {
+  title: '工程化',
+  childs: [{
+    title: '工程化模板',
     childs: [{
-      title: '组件库',
-      path: 'tech/cross-platform/component',
+      title: '面向研发人员',
+      path: 'tools/project/template/engineer',
     }, {
-      title: 'flutter',
-      path: 'tech/cross-platform/flutter',
+      title: '面向产品/运营人员',
+      path: 'tools/project/template/pd',
     }],
   }, {
-    title: '游戏',
+    title: '约定式路由',
     childs: [{
-      title: 'vr',
-      path: 'tech/game/vr',
+      title: 'react',
+      path: 'tools/project/router/react',
+    }, {
+      title: 'vue',
+      path: 'tools/project/router/vue',
     }],
+  }, {
+    title: '组件依赖定位',
+    path: 'tools/project/whereis-components',
   }],
-};
+}, {
+  title: '工程质量',
+  childs: [{
+    title: 'test',
+  }],
+}, {
+  title: '素材辅助管理',
+  childs: [{
+    title: 'test',
+  }],
+}], [{
+  title: '跨端',
+  childs: [{
+    title: 'wc组件库',
+    path: 'tech/cross-platform/wc-component',
+  }, {
+    title: 'flutter',
+    path: 'tech/cross-platform/flutter',
+  }],
+}, {
+  title: '游戏',
+  childs: [{
+    title: 'vr',
+    path: 'tech/game/vr',
+  }],
+}],
+];
 
 const navData: navConstructor[] = [{
   title: '实用工具',
@@ -97,18 +93,36 @@ const navData: navConstructor[] = [{
   title: '技术储备',
 }];
 
+const routeOrder: {
+  [key: string]: number;
+} = {
+  tools: 0,
+  tech: 1,
+};
+const routePath: {
+  [key: number]: string;
+} = {
+  0: 'tools',
+  1: 'tech',
+};
+
 const Home: NextPage = (props) => {
   const [, setLoading] = useAtom(loading);
   const [menu, setMenu] = useState<menuConstructor[]>([]);
   const [current, setCurrent] = useState<number>(1);
   useEffect(() => {
-    setMenu(menuData.menu1);
+    const route = Router.pathname.split('/')[1] || 'tools';
+    const curr = routeOrder[route];
+    setCurrent(curr);
+    console.log({ curr, route });
+    setMenu(menuData[curr]);
   }, []);
-  console.log({ Router });
   const jump = async (num: number) => {
     setLoading(true);
-    setMenu(menuData[`menu${num}`]);
-
+    setCurrent(num);
+    setMenu(menuData[num]);
+    Object.keys(routeOrder);
+    Router.push(`/${routePath[num]}`);
     setLoading(false);
   };
 
@@ -130,7 +144,7 @@ const Home: NextPage = (props) => {
               key={nav.title}
               onClick={() => { jump(i); }}
               txt={nav.title}
-              className={current === i ? '' : ''}
+              active={current === i}
             />,
           )
         }

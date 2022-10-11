@@ -1,0 +1,10 @@
+.button {
+  transition: .4s;
+}
+.button:hover {
+  color: #D34017;
+  opacity: 0.8;
+}
+.button.active {
+  color: #D34017;
+}

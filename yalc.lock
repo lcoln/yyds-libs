@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@yyds-lib/airui": {
-      "signature": "8aaf849f36d27f9bd86b900943aac8ca",
+      "signature": "1770fc2fff6d2fe234ea6548485a0240",
       "file": true
     }
   }
