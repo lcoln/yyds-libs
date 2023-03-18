@@ -2,7 +2,12 @@
   "version": "v1",
   "packages": {
     "@yyds-lib/airui": {
-      "signature": "1770fc2fff6d2fe234ea6548485a0240",
+      "signature": "d21107dca68be1755deec0d0173d0bad",
+      "file": true
+    },
+    "@mynpmusername/hello-wasm": {
+      "version": "0.1.0",
+      "signature": "5462f7a409eeab329e3c0556ddc314b2",
       "file": true
     }
   }

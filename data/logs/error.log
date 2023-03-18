@@ -2275,3 +2275,1432 @@ warn  - Experimental features are not covered by semver, and may cause unexpecte
 warn  - You have experimental React Server Components enabled. Continue at your own risk.
 warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
 warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./pages/tools/overseas/web/index.tsx:25:0
+Module not found: Can't resolve 'tesseract.js'
+[0m [90m 23 | [39m[36mimport[39m [33mButton[39m [36mfrom[39m [32m'@material-ui/core/Button'[39m[33m;[39m[0m
+[0m [90m 24 | [39m[36mimport[39m [33mSaveIcon[39m [36mfrom[39m [32m'@material-ui/icons/Save'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 | [39m[36mimport[39m [33mTesseract[39m [36mfrom[39m [32m'tesseract.js'[39m[33m;[39m[0m
+[0m [90m 26 | [39m[36mimport[39m styles [36mfrom[39m [32m'./index.module.css'[39m[33m;[39m[0m
+[0m [90m 27 | [39m[0m
+[0m [90m 28 | [39m[36mconst[39m useStyles [33m=[39m makeStyles((theme[33m:[39m [33mTheme[39m) [33m=>[39m createStyles({[0m
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./pages/tools/overseas/web/index.tsx:25:0
+Module not found: Can't resolve 'tesseract.js'
+[0m [90m 23 | [39m[36mimport[39m [33mButton[39m [36mfrom[39m [32m'@material-ui/core/Button'[39m[33m;[39m[0m
+[0m [90m 24 | [39m[36mimport[39m [33mSaveIcon[39m [36mfrom[39m [32m'@material-ui/icons/Save'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 | [39m[36mimport[39m [33mTesseract[39m [36mfrom[39m [32m'tesseract.js'[39m[33m;[39m[0m
+[0m [90m 26 | [39m[36mimport[39m styles [36mfrom[39m [32m'./index.module.css'[39m[33m;[39m[0m
+[0m [90m 27 | [39m[0m
+[0m [90m 28 | [39m[36mconst[39m useStyles [33m=[39m makeStyles((theme[33m:[39m [33mTheme[39m) [33m=>[39m createStyles({[0m
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./pages/tools/overseas/web/index.tsx:26:0
+Module not found: Can't resolve '@mynpmusername/hello-wasm@0.1.0'
+[0m [90m 24 | [39m[36mimport[39m [33mSaveIcon[39m [36mfrom[39m [32m'@material-ui/icons/Save'[39m[33m;[39m[0m
+[0m [90m 25 | [39m[90m// import Tesseract from 'tesseract.js';[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 | [39m[36mimport[39m wasm [36mfrom[39m [32m'@mynpmusername/hello-wasm@0.1.0'[39m[33m;[39m[0m
+[0m [90m 27 | [39m[36mimport[39m styles [36mfrom[39m [32m'./index.module.css'[39m[33m;[39m[0m
+[0m [90m 28 | [39m[0m
+[0m [90m 29 | [39mconsole[33m.[39mlog({ wasm })[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./pages/tools/overseas/web/index.tsx:26:0
+Module not found: Can't resolve '@mynpmusername/hello-wasm@0.1.0'
+[0m [90m 24 | [39m[36mimport[39m [33mSaveIcon[39m [36mfrom[39m [32m'@material-ui/icons/Save'[39m[33m;[39m[0m
+[0m [90m 25 | [39m[90m// import Tesseract from 'tesseract.js';[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 | [39m[36mimport[39m wasm [36mfrom[39m [32m'@mynpmusername/hello-wasm@0.1.0'[39m[33m;[39m[0m
+[0m [90m 27 | [39m[36mimport[39m styles [36mfrom[39m [32m'./index.module.css'[39m[33m;[39m[0m
+[0m [90m 28 | [39m[0m
+[0m [90m 29 | [39mconsole[33m.[39mlog({ wasm })[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./pages/tools/overseas/web/index.tsx:26:0
+Module not found: Can't resolve '@mynpmusername/hello-wasm@0.1.0'
+[0m [90m 24 | [39m[36mimport[39m [33mSaveIcon[39m [36mfrom[39m [32m'@material-ui/icons/Save'[39m[33m;[39m[0m
+[0m [90m 25 | [39m[90m// import Tesseract from 'tesseract.js';[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 | [39m[36mimport[39m wasm [36mfrom[39m [32m'@mynpmusername/hello-wasm@0.1.0'[39m[33m;[39m[0m
+[0m [90m 27 | [39m[36mimport[39m styles [36mfrom[39m [32m'./index.module.css'[39m[33m;[39m[0m
+[0m [90m 28 | [39m[0m
+[0m [90m 29 | [39mconsole[33m.[39mlog({ wasm })[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, experiments, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm_bg.wasm
+Module parse failed: Unexpected character ' ' (1:0)
+The module seem to be a WebAssembly module, but module is not flagged as WebAssembly module for webpack.
+BREAKING CHANGE: Since webpack 5 WebAssembly is not enabled by default and flagged as experimental feature.
+You need to enable one of the WebAssembly experiments via 'experiments.asyncWebAssembly: true' (based on async modules) or 'experiments.syncWebAssembly: true' (like webpack 4, deprecated).
+For files that transpile to WebAssembly, make sure to set the module type in the 'module.rules' section of the config (e. g. 'type: "webassembly/async"').
+(Source code omitted for this binary file)
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.webpack (/Users/coln/www/work/tencent/yyds-tools/next.config.js:15:18)
+    at Object.getBaseWebpackConfig [as default] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack-config.js:1310:32)
+    at async Promise.all (index 0)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:325:25)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.webpack (/Users/coln/www/work/tencent/yyds-tools/next.config.js:15:18)
+    at Object.getBaseWebpackConfig [as default] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack-config.js:1310:32)
+    at async Promise.all (index 0)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:325:25)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.webpack (/Users/coln/www/work/tencent/yyds-tools/next.config.js:16:18)
+    at Object.getBaseWebpackConfig [as default] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack-config.js:1310:32)
+    at async Promise.all (index 0)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:325:25)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+TypeError: Cannot read properties of undefined (reading 'rules')
+    at Object.webpack (/Users/coln/www/work/tencent/yyds-tools/next.config.js:16:20)
+    at Object.getBaseWebpackConfig [as default] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/build/webpack-config.js:1310:32)
+    at async Promise.all (index 0)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async Span.traceAsyncFn (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/trace/trace.js:79:20)
+    at async HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:325:25)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9)
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: No parser registered for webassembly/async
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: No parser registered for webassembly/async
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: No parser registered for webassembly/async
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: No parser registered for webassembly/async
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: No parser registered for webassembly/async
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: Invalid generator object. Asset Modules Plugin has been initialized using a generator object that does not match the API schema.
+ - generator has an unknown property 'filename'. These properties are valid:
+   object { dataUrl? }
+   -> Generator options for asset/inline modules.
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: Invalid generator object. Asset Modules Plugin has been initialized using a generator object that does not match the API schema.
+ - generator has an unknown property 'filename'. These properties are valid:
+   object { dataUrl? }
+   -> Generator options for asset/inline modules.
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: Invalid generator object. Asset Modules Plugin has been initialized using a generator object that does not match the API schema.
+ - generator has an unknown property 'filename'. These properties are valid:
+   object { dataUrl? }
+   -> Generator options for asset/inline modules.
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: Invalid generator object. Asset Modules Plugin has been initialized using a generator object that does not match the API schema.
+ - generator has an unknown property 'filename'. These properties are valid:
+   object { dataUrl? }
+   -> Generator options for asset/inline modules.
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+error - ./node_modules/@yyds-lib/airui/dist/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/coln/www/work/tencent/yyds-tools/node_modules/@yyds-lib/airui/dist/index.js'
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+error - ./node_modules/@mynpmusername/hello-wasm/hello_wasm.js:1:0
+Module not found: Invalid generator object. Asset Modules Plugin has been initialized using a generator object that does not match the API schema.
+ - generator has an unknown property 'filename'. These properties are valid:
+   object { dataUrl? }
+   -> Generator options for asset/inline modules.
+
+Import trace for requested module:
+./pages/tools/overseas/web/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+ValidationError: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration[0].module.rules[5] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[1].module.rules[7] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[2].module.rules[12] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+    at validate (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/schema-utils3/index.js:1:150815)
+    at validateSchema (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:139440:2)
+    at create (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142939:24)
+    at webpack (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142986:32)
+    at Object.f [as webpack] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:97431:16)
+    at HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:433:45)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9) {
+  errors: [
+    {
+      keyword: 'oneOf',
+      dataPath: '[0].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[1].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[2].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    }
+  ],
+  schema: {
+    definitions: {
+      Amd: [Object],
+      AssetFilterItemTypes: [Object],
+      AssetFilterTypes: [Object],
+      AssetGeneratorDataUrl: [Object],
+      AssetGeneratorDataUrlFunction: [Object],
+      AssetGeneratorDataUrlOptions: [Object],
+      AssetGeneratorOptions: [Object],
+      AssetInlineGeneratorOptions: [Object],
+      AssetModuleFilename: [Object],
+      AssetModuleOutputPath: [Object],
+      AssetParserDataUrlFunction: [Object],
+      AssetParserDataUrlOptions: [Object],
+      AssetParserOptions: [Object],
+      AssetResourceGeneratorOptions: [Object],
+      AuxiliaryComment: [Object],
+      Bail: [Object],
+      CacheOptions: [Object],
+      CacheOptionsNormalized: [Object],
+      Charset: [Object],
+      ChunkFilename: [Object],
+      ChunkFormat: [Object],
+      ChunkLoadTimeout: [Object],
+      ChunkLoading: [Object],
+      ChunkLoadingGlobal: [Object],
+      ChunkLoadingType: [Object],
+      Clean: [Object],
+      CleanOptions: [Object],
+      CompareBeforeEmit: [Object],
+      Context: [Object],
+      CrossOriginLoading: [Object],
+      CssChunkFilename: [Object],
+      CssExperimentOptions: [Object],
+      CssFilename: [Object],
+      CssGeneratorOptions: [Object],
+      CssParserOptions: [Object],
+      Dependencies: [Object],
+      DevServer: [Object],
+      DevTool: [Object],
+      DevtoolFallbackModuleFilenameTemplate: [Object],
+      DevtoolModuleFilenameTemplate: [Object],
+      DevtoolNamespace: [Object],
+      EmptyGeneratorOptions: [Object],
+      EmptyParserOptions: [Object],
+      EnabledChunkLoadingTypes: [Object],
+      EnabledLibraryTypes: [Object],
+      EnabledWasmLoadingTypes: [Object],
+      Entry: [Object],
+      EntryDescription: [Object],
+      EntryDescriptionNormalized: [Object],
+      EntryDynamic: [Object],
+      EntryDynamicNormalized: [Object],
+      EntryFilename: [Object],
+      EntryItem: [Object],
+      EntryNormalized: [Object],
+      EntryObject: [Object],
+      EntryRuntime: [Object],
+      EntryStatic: [Object],
+      EntryStaticNormalized: [Object],
+      EntryUnnamed: [Object],
+      Environment: [Object],
+      Experiments: [Object],
+      ExperimentsCommon: [Object],
+      ExperimentsNormalized: [Object],
+      ExternalItem: [Object],
+      ExternalItemFunctionData: [Object],
+      ExternalItemValue: [Object],
+      Externals: [Object],
+      ExternalsPresets: [Object],
+      ExternalsType: [Object],
+      FileCacheOptions: [Object],
+      Filename: [Object],
+      FilenameTemplate: [Object],
+      FilterItemTypes: [Object],
+      FilterTypes: [Object],
+      GeneratorOptionsByModuleType: [Object],
+      GlobalObject: [Object],
+      HashDigest: [Object],
+      HashDigestLength: [Object],
+      HashFunction: [Object],
+      HashSalt: [Object],
+      HotUpdateChunkFilename: [Object],
+      HotUpdateGlobal: [Object],
+      HotUpdateMainFilename: [Object],
+      HttpUriAllowedUris: [Object],
+      HttpUriOptions: [Object],
+      HttpUriOptionsAllowedUris: [Object],
+      IgnoreWarnings: [Object],
+      IgnoreWarningsNormalized: [Object],
+      Iife: [Object],
+      ImportFunctionName: [Object],
+      ImportMetaName: [Object],
+      InfrastructureLogging: [Object],
+      JavascriptParserOptions: [Object],
+      Layer: [Object],
+      LazyCompilationDefaultBackendOptions: [Object],
+      LazyCompilationOptions: [Object],
+      Library: [Object],
+      LibraryCustomUmdCommentObject: [Object],
+      LibraryCustomUmdObject: [Object],
+      LibraryExport: [Object],
+      LibraryName: [Object],
+      LibraryOptions: [Object],
+      LibraryType: [Object],
+      Loader: [Object],
+      MemoryCacheOptions: [Object],
+      Mode: [Object],
+      ModuleFilterItemTypes: [Object],
+      ModuleFilterTypes: [Object],
+      ModuleOptions: [Object],
+      ModuleOptionsNormalized: [Object],
+      Name: [Object],
+      NoParse: [Object],
+      Node: [Object],
+      NodeOptions: [Object],
+      Optimization: [Object],
+      OptimizationRuntimeChunk: [Object],
+      OptimizationRuntimeChunkNormalized: [Object],
+      OptimizationSplitChunksCacheGroup: [Object],
+      OptimizationSplitChunksGetCacheGroups: [Object],
+      OptimizationSplitChunksOptions: [Object],
+      OptimizationSplitChunksSizes: [Object],
+      Output: [Object],
+      OutputModule: [Object],
+      OutputNormalized: [Object],
+      Parallelism: [Object],
+      ParserOptionsByModuleType: [Object],
+      Path: [Object],
+      Pathinfo: [Object],
+      Performance: [Object],
+      PerformanceOptions: [Object],
+      Plugins: [Object],
+      Profile: [Object],
+      PublicPath: [Object],
+      RawPublicPath: [Object],
+      RecordsInputPath: [Object],
+      RecordsOutputPath: [Object],
+      RecordsPath: [Object],
+      Resolve: [Object],
+      ResolveAlias: [Object],
+      ResolveLoader: [Object],
+      ResolveOptions: [Object],
+      ResolvePluginInstance: [Object],
+      RuleSetCondition: [Object],
+      RuleSetConditionAbsolute: [Object],
+      RuleSetConditionOrConditions: [Object],
+      RuleSetConditionOrConditionsAbsolute: [Object],
+      RuleSetConditions: [Object],
+      RuleSetConditionsAbsolute: [Object],
+      RuleSetLoader: [Object],
+      RuleSetLoaderOptions: [Object],
+      RuleSetLogicalConditions: [Object],
+      RuleSetLogicalConditionsAbsolute: [Object],
+      RuleSetRule: [Object],
+      RuleSetRules: [Object],
+      RuleSetUse: [Object],
+      RuleSetUseItem: [Object],
+      ScriptType: [Object],
+      SnapshotOptions: [Object],
+      SourceMapFilename: [Object],
+      SourcePrefix: [Object],
+      StatsOptions: [Object],
+      StatsValue: [Object],
+      StrictModuleErrorHandling: [Object],
+      StrictModuleExceptionHandling: [Object],
+      Target: [Object],
+      TrustedTypes: [Object],
+      UmdNamedDefine: [Object],
+      UniqueName: [Object],
+      WarningFilterItemTypes: [Object],
+      WarningFilterTypes: [Object],
+      WasmLoading: [Object],
+      WasmLoadingType: [Object],
+      Watch: [Object],
+      WatchOptions: [Object],
+      WebassemblyModuleFilename: [Object],
+      WebpackOptionsNormalized: [Object],
+      WebpackPluginFunction: [Object],
+      WebpackPluginInstance: [Object]
+    },
+    title: 'WebpackOptions',
+    description: 'Options object as provided by the user.',
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      amd: [Object],
+      bail: [Object],
+      cache: [Object],
+      context: [Object],
+      dependencies: [Object],
+      devServer: [Object],
+      devtool: [Object],
+      entry: [Object],
+      experiments: [Object],
+      externals: [Object],
+      externalsPresets: [Object],
+      externalsType: [Object],
+      ignoreWarnings: [Object],
+      infrastructureLogging: [Object],
+      loader: [Object],
+      mode: [Object],
+      module: [Object],
+      name: [Object],
+      node: [Object],
+      optimization: [Object],
+      output: [Object],
+      parallelism: [Object],
+      performance: [Object],
+      plugins: [Object],
+      profile: [Object],
+      recordsInputPath: [Object],
+      recordsOutputPath: [Object],
+      recordsPath: [Object],
+      resolve: [Object],
+      resolveLoader: [Object],
+      snapshot: [Object],
+      stats: [Object],
+      target: [Object],
+      watch: [Object],
+      watchOptions: [Object]
+    }
+  },
+  headerName: 'Webpack',
+  baseDataPath: 'configuration',
+  postFormatter: [Function: postFormatter]
+}
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+ValidationError: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration[0].module.rules[5] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[1].module.rules[7] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[2].module.rules[12] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+    at validate (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/schema-utils3/index.js:1:150815)
+    at validateSchema (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:139440:2)
+    at create (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142939:24)
+    at webpack (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142986:32)
+    at Object.f [as webpack] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:97431:16)
+    at HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:433:45)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9) {
+  errors: [
+    {
+      keyword: 'oneOf',
+      dataPath: '[0].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[1].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[2].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    }
+  ],
+  schema: {
+    definitions: {
+      Amd: [Object],
+      AssetFilterItemTypes: [Object],
+      AssetFilterTypes: [Object],
+      AssetGeneratorDataUrl: [Object],
+      AssetGeneratorDataUrlFunction: [Object],
+      AssetGeneratorDataUrlOptions: [Object],
+      AssetGeneratorOptions: [Object],
+      AssetInlineGeneratorOptions: [Object],
+      AssetModuleFilename: [Object],
+      AssetModuleOutputPath: [Object],
+      AssetParserDataUrlFunction: [Object],
+      AssetParserDataUrlOptions: [Object],
+      AssetParserOptions: [Object],
+      AssetResourceGeneratorOptions: [Object],
+      AuxiliaryComment: [Object],
+      Bail: [Object],
+      CacheOptions: [Object],
+      CacheOptionsNormalized: [Object],
+      Charset: [Object],
+      ChunkFilename: [Object],
+      ChunkFormat: [Object],
+      ChunkLoadTimeout: [Object],
+      ChunkLoading: [Object],
+      ChunkLoadingGlobal: [Object],
+      ChunkLoadingType: [Object],
+      Clean: [Object],
+      CleanOptions: [Object],
+      CompareBeforeEmit: [Object],
+      Context: [Object],
+      CrossOriginLoading: [Object],
+      CssChunkFilename: [Object],
+      CssExperimentOptions: [Object],
+      CssFilename: [Object],
+      CssGeneratorOptions: [Object],
+      CssParserOptions: [Object],
+      Dependencies: [Object],
+      DevServer: [Object],
+      DevTool: [Object],
+      DevtoolFallbackModuleFilenameTemplate: [Object],
+      DevtoolModuleFilenameTemplate: [Object],
+      DevtoolNamespace: [Object],
+      EmptyGeneratorOptions: [Object],
+      EmptyParserOptions: [Object],
+      EnabledChunkLoadingTypes: [Object],
+      EnabledLibraryTypes: [Object],
+      EnabledWasmLoadingTypes: [Object],
+      Entry: [Object],
+      EntryDescription: [Object],
+      EntryDescriptionNormalized: [Object],
+      EntryDynamic: [Object],
+      EntryDynamicNormalized: [Object],
+      EntryFilename: [Object],
+      EntryItem: [Object],
+      EntryNormalized: [Object],
+      EntryObject: [Object],
+      EntryRuntime: [Object],
+      EntryStatic: [Object],
+      EntryStaticNormalized: [Object],
+      EntryUnnamed: [Object],
+      Environment: [Object],
+      Experiments: [Object],
+      ExperimentsCommon: [Object],
+      ExperimentsNormalized: [Object],
+      ExternalItem: [Object],
+      ExternalItemFunctionData: [Object],
+      ExternalItemValue: [Object],
+      Externals: [Object],
+      ExternalsPresets: [Object],
+      ExternalsType: [Object],
+      FileCacheOptions: [Object],
+      Filename: [Object],
+      FilenameTemplate: [Object],
+      FilterItemTypes: [Object],
+      FilterTypes: [Object],
+      GeneratorOptionsByModuleType: [Object],
+      GlobalObject: [Object],
+      HashDigest: [Object],
+      HashDigestLength: [Object],
+      HashFunction: [Object],
+      HashSalt: [Object],
+      HotUpdateChunkFilename: [Object],
+      HotUpdateGlobal: [Object],
+      HotUpdateMainFilename: [Object],
+      HttpUriAllowedUris: [Object],
+      HttpUriOptions: [Object],
+      HttpUriOptionsAllowedUris: [Object],
+      IgnoreWarnings: [Object],
+      IgnoreWarningsNormalized: [Object],
+      Iife: [Object],
+      ImportFunctionName: [Object],
+      ImportMetaName: [Object],
+      InfrastructureLogging: [Object],
+      JavascriptParserOptions: [Object],
+      Layer: [Object],
+      LazyCompilationDefaultBackendOptions: [Object],
+      LazyCompilationOptions: [Object],
+      Library: [Object],
+      LibraryCustomUmdCommentObject: [Object],
+      LibraryCustomUmdObject: [Object],
+      LibraryExport: [Object],
+      LibraryName: [Object],
+      LibraryOptions: [Object],
+      LibraryType: [Object],
+      Loader: [Object],
+      MemoryCacheOptions: [Object],
+      Mode: [Object],
+      ModuleFilterItemTypes: [Object],
+      ModuleFilterTypes: [Object],
+      ModuleOptions: [Object],
+      ModuleOptionsNormalized: [Object],
+      Name: [Object],
+      NoParse: [Object],
+      Node: [Object],
+      NodeOptions: [Object],
+      Optimization: [Object],
+      OptimizationRuntimeChunk: [Object],
+      OptimizationRuntimeChunkNormalized: [Object],
+      OptimizationSplitChunksCacheGroup: [Object],
+      OptimizationSplitChunksGetCacheGroups: [Object],
+      OptimizationSplitChunksOptions: [Object],
+      OptimizationSplitChunksSizes: [Object],
+      Output: [Object],
+      OutputModule: [Object],
+      OutputNormalized: [Object],
+      Parallelism: [Object],
+      ParserOptionsByModuleType: [Object],
+      Path: [Object],
+      Pathinfo: [Object],
+      Performance: [Object],
+      PerformanceOptions: [Object],
+      Plugins: [Object],
+      Profile: [Object],
+      PublicPath: [Object],
+      RawPublicPath: [Object],
+      RecordsInputPath: [Object],
+      RecordsOutputPath: [Object],
+      RecordsPath: [Object],
+      Resolve: [Object],
+      ResolveAlias: [Object],
+      ResolveLoader: [Object],
+      ResolveOptions: [Object],
+      ResolvePluginInstance: [Object],
+      RuleSetCondition: [Object],
+      RuleSetConditionAbsolute: [Object],
+      RuleSetConditionOrConditions: [Object],
+      RuleSetConditionOrConditionsAbsolute: [Object],
+      RuleSetConditions: [Object],
+      RuleSetConditionsAbsolute: [Object],
+      RuleSetLoader: [Object],
+      RuleSetLoaderOptions: [Object],
+      RuleSetLogicalConditions: [Object],
+      RuleSetLogicalConditionsAbsolute: [Object],
+      RuleSetRule: [Object],
+      RuleSetRules: [Object],
+      RuleSetUse: [Object],
+      RuleSetUseItem: [Object],
+      ScriptType: [Object],
+      SnapshotOptions: [Object],
+      SourceMapFilename: [Object],
+      SourcePrefix: [Object],
+      StatsOptions: [Object],
+      StatsValue: [Object],
+      StrictModuleErrorHandling: [Object],
+      StrictModuleExceptionHandling: [Object],
+      Target: [Object],
+      TrustedTypes: [Object],
+      UmdNamedDefine: [Object],
+      UniqueName: [Object],
+      WarningFilterItemTypes: [Object],
+      WarningFilterTypes: [Object],
+      WasmLoading: [Object],
+      WasmLoadingType: [Object],
+      Watch: [Object],
+      WatchOptions: [Object],
+      WebassemblyModuleFilename: [Object],
+      WebpackOptionsNormalized: [Object],
+      WebpackPluginFunction: [Object],
+      WebpackPluginInstance: [Object]
+    },
+    title: 'WebpackOptions',
+    description: 'Options object as provided by the user.',
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      amd: [Object],
+      bail: [Object],
+      cache: [Object],
+      context: [Object],
+      dependencies: [Object],
+      devServer: [Object],
+      devtool: [Object],
+      entry: [Object],
+      experiments: [Object],
+      externals: [Object],
+      externalsPresets: [Object],
+      externalsType: [Object],
+      ignoreWarnings: [Object],
+      infrastructureLogging: [Object],
+      loader: [Object],
+      mode: [Object],
+      module: [Object],
+      name: [Object],
+      node: [Object],
+      optimization: [Object],
+      output: [Object],
+      parallelism: [Object],
+      performance: [Object],
+      plugins: [Object],
+      profile: [Object],
+      recordsInputPath: [Object],
+      recordsOutputPath: [Object],
+      recordsPath: [Object],
+      resolve: [Object],
+      resolveLoader: [Object],
+      snapshot: [Object],
+      stats: [Object],
+      target: [Object],
+      watch: [Object],
+      watchOptions: [Object]
+    }
+  },
+  headerName: 'Webpack',
+  baseDataPath: 'configuration',
+  postFormatter: [Function: postFormatter]
+}
+warn  - Invalid next.config.js options detected: 
+  - The value at .experimental has an unexpected property, asyncWebAssembly, which is not in the list of allowed properties (amp, appDir, browsersListForSwc, cpus, craCompat, disableOptimizedLoading, disablePostcssPresetEnv, esmExternals, externalDir, forceSwcTransforms, fullySpecified, gzipSize, images, incrementalCacheHandlerPath, isrFlushToDisk, isrMemoryCacheSize, largePageDataBytes, legacyBrowsers, manualClientBasePath, modularizeImports, newNextLinkBehavior, nextScriptWorkers, optimizeCss, optimisticClientCache, outputFileTracingRoot, pageEnv, profiling, runtime, scrollRestoration, serverComponents, sharedPool, swcFileReading, swcMinify, swcMinifyDebugOptions, swcPlugins, swcTraceProfiling, urlImports, workerThreads).
+  - The value at .experimental.runtime must be one of: "experimental-edge" or "nodejs".
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+warn  - You have enabled experimental features (runtime, serverComponents, asyncWebAssembly) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+warn  - You have experimental React Server Components enabled. Continue at your own risk.
+ValidationError: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration[0].module.rules[5] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[1].module.rules[7] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+ - configuration[2].module.rules[12] has an unknown property 'loaders'. These properties are valid:
+   object { assert?, compiler?, dependency?, descriptionData?, enforce?, exclude?, generator?, include?, issuer?, issuerLayer?, layer?, loader?, mimetype?, oneOf?, options?, parser?, realResource?, resolve?, resource?, resourceFragment?, resourceQuery?, rules?, scheme?, sideEffects?, test?, type?, use? }
+   -> A rule description with conditions and effects for modules.
+    at validate (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/schema-utils3/index.js:1:150815)
+    at validateSchema (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:139440:2)
+    at create (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142939:24)
+    at webpack (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:142986:32)
+    at Object.f [as webpack] (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/compiled/webpack/bundle5.js:97431:16)
+    at HotReloader.start (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/hot-reloader.js:433:45)
+    at async DevServer.prepare (/Users/coln/www/work/tencent/yyds-tools/node_modules/.pnpm/next@12.2.5_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/dev/next-dev-server.js:365:9) {
+  errors: [
+    {
+      keyword: 'oneOf',
+      dataPath: '[0].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[1].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'oneOf',
+      dataPath: '[2].module.rules',
+      schemaPath: '#/properties/rules/oneOf',
+      params: [Object],
+      message: 'should match exactly one schema in oneOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    }
+  ],
+  schema: {
+    definitions: {
+      Amd: [Object],
+      AssetFilterItemTypes: [Object],
+      AssetFilterTypes: [Object],
+      AssetGeneratorDataUrl: [Object],
+      AssetGeneratorDataUrlFunction: [Object],
+      AssetGeneratorDataUrlOptions: [Object],
+      AssetGeneratorOptions: [Object],
+      AssetInlineGeneratorOptions: [Object],
+      AssetModuleFilename: [Object],
+      AssetModuleOutputPath: [Object],
+      AssetParserDataUrlFunction: [Object],
+      AssetParserDataUrlOptions: [Object],
+      AssetParserOptions: [Object],
+      AssetResourceGeneratorOptions: [Object],
+      AuxiliaryComment: [Object],
+      Bail: [Object],
+      CacheOptions: [Object],
+      CacheOptionsNormalized: [Object],
+      Charset: [Object],
+      ChunkFilename: [Object],
+      ChunkFormat: [Object],
+      ChunkLoadTimeout: [Object],
+      ChunkLoading: [Object],
+      ChunkLoadingGlobal: [Object],
+      ChunkLoadingType: [Object],
+      Clean: [Object],
+      CleanOptions: [Object],
+      CompareBeforeEmit: [Object],
+      Context: [Object],
+      CrossOriginLoading: [Object],
+      CssChunkFilename: [Object],
+      CssExperimentOptions: [Object],
+      CssFilename: [Object],
+      CssGeneratorOptions: [Object],
+      CssParserOptions: [Object],
+      Dependencies: [Object],
+      DevServer: [Object],
+      DevTool: [Object],
+      DevtoolFallbackModuleFilenameTemplate: [Object],
+      DevtoolModuleFilenameTemplate: [Object],
+      DevtoolNamespace: [Object],
+      EmptyGeneratorOptions: [Object],
+      EmptyParserOptions: [Object],
+      EnabledChunkLoadingTypes: [Object],
+      EnabledLibraryTypes: [Object],
+      EnabledWasmLoadingTypes: [Object],
+      Entry: [Object],
+      EntryDescription: [Object],
+      EntryDescriptionNormalized: [Object],
+      EntryDynamic: [Object],
+      EntryDynamicNormalized: [Object],
+      EntryFilename: [Object],
+      EntryItem: [Object],
+      EntryNormalized: [Object],
+      EntryObject: [Object],
+      EntryRuntime: [Object],
+      EntryStatic: [Object],
+      EntryStaticNormalized: [Object],
+      EntryUnnamed: [Object],
+      Environment: [Object],
+      Experiments: [Object],
+      ExperimentsCommon: [Object],
+      ExperimentsNormalized: [Object],
+      ExternalItem: [Object],
+      ExternalItemFunctionData: [Object],
+      ExternalItemValue: [Object],
+      Externals: [Object],
+      ExternalsPresets: [Object],
+      ExternalsType: [Object],
+      FileCacheOptions: [Object],
+      Filename: [Object],
+      FilenameTemplate: [Object],
+      FilterItemTypes: [Object],
+      FilterTypes: [Object],
+      GeneratorOptionsByModuleType: [Object],
+      GlobalObject: [Object],
+      HashDigest: [Object],
+      HashDigestLength: [Object],
+      HashFunction: [Object],
+      HashSalt: [Object],
+      HotUpdateChunkFilename: [Object],
+      HotUpdateGlobal: [Object],
+      HotUpdateMainFilename: [Object],
+      HttpUriAllowedUris: [Object],
+      HttpUriOptions: [Object],
+      HttpUriOptionsAllowedUris: [Object],
+      IgnoreWarnings: [Object],
+      IgnoreWarningsNormalized: [Object],
+      Iife: [Object],
+      ImportFunctionName: [Object],
+      ImportMetaName: [Object],
+      InfrastructureLogging: [Object],
+      JavascriptParserOptions: [Object],
+      Layer: [Object],
+      LazyCompilationDefaultBackendOptions: [Object],
+      LazyCompilationOptions: [Object],
+      Library: [Object],
+      LibraryCustomUmdCommentObject: [Object],
+      LibraryCustomUmdObject: [Object],
+      LibraryExport: [Object],
+      LibraryName: [Object],
+      LibraryOptions: [Object],
+      LibraryType: [Object],
+      Loader: [Object],
+      MemoryCacheOptions: [Object],
+      Mode: [Object],
+      ModuleFilterItemTypes: [Object],
+      ModuleFilterTypes: [Object],
+      ModuleOptions: [Object],
+      ModuleOptionsNormalized: [Object],
+      Name: [Object],
+      NoParse: [Object],
+      Node: [Object],
+      NodeOptions: [Object],
+      Optimization: [Object],
+      OptimizationRuntimeChunk: [Object],
+      OptimizationRuntimeChunkNormalized: [Object],
+      OptimizationSplitChunksCacheGroup: [Object],
+      OptimizationSplitChunksGetCacheGroups: [Object],
+      OptimizationSplitChunksOptions: [Object],
+      OptimizationSplitChunksSizes: [Object],
+      Output: [Object],
+      OutputModule: [Object],
+      OutputNormalized: [Object],
+      Parallelism: [Object],
+      ParserOptionsByModuleType: [Object],
+      Path: [Object],
+      Pathinfo: [Object],
+      Performance: [Object],
+      PerformanceOptions: [Object],
+      Plugins: [Object],
+      Profile: [Object],
+      PublicPath: [Object],
+      RawPublicPath: [Object],
+      RecordsInputPath: [Object],
+      RecordsOutputPath: [Object],
+      RecordsPath: [Object],
+      Resolve: [Object],
+      ResolveAlias: [Object],
+      ResolveLoader: [Object],
+      ResolveOptions: [Object],
+      ResolvePluginInstance: [Object],
+      RuleSetCondition: [Object],
+      RuleSetConditionAbsolute: [Object],
+      RuleSetConditionOrConditions: [Object],
+      RuleSetConditionOrConditionsAbsolute: [Object],
+      RuleSetConditions: [Object],
+      RuleSetConditionsAbsolute: [Object],
+      RuleSetLoader: [Object],
+      RuleSetLoaderOptions: [Object],
+      RuleSetLogicalConditions: [Object],
+      RuleSetLogicalConditionsAbsolute: [Object],
+      RuleSetRule: [Object],
+      RuleSetRules: [Object],
+      RuleSetUse: [Object],
+      RuleSetUseItem: [Object],
+      ScriptType: [Object],
+      SnapshotOptions: [Object],
+      SourceMapFilename: [Object],
+      SourcePrefix: [Object],
+      StatsOptions: [Object],
+      StatsValue: [Object],
+      StrictModuleErrorHandling: [Object],
+      StrictModuleExceptionHandling: [Object],
+      Target: [Object],
+      TrustedTypes: [Object],
+      UmdNamedDefine: [Object],
+      UniqueName: [Object],
+      WarningFilterItemTypes: [Object],
+      WarningFilterTypes: [Object],
+      WasmLoading: [Object],
+      WasmLoadingType: [Object],
+      Watch: [Object],
+      WatchOptions: [Object],
+      WebassemblyModuleFilename: [Object],
+      WebpackOptionsNormalized: [Object],
+      WebpackPluginFunction: [Object],
+      WebpackPluginInstance: [Object]
+    },
+    title: 'WebpackOptions',
+    description: 'Options object as provided by the user.',
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      amd: [Object],
+      bail: [Object],
+      cache: [Object],
+      context: [Object],
+      dependencies: [Object],
+      devServer: [Object],
+      devtool: [Object],
+      entry: [Object],
+      experiments: [Object],
+      externals: [Object],
+      externalsPresets: [Object],
+      externalsType: [Object],
+      ignoreWarnings: [Object],
+      infrastructureLogging: [Object],
+      loader: [Object],
+      mode: [Object],
+      module: [Object],
+      name: [Object],
+      node: [Object],
+      optimization: [Object],
+      output: [Object],
+      parallelism: [Object],
+      performance: [Object],
+      plugins: [Object],
+      profile: [Object],
+      recordsInputPath: [Object],
+      recordsOutputPath: [Object],
+      recordsPath: [Object],
+      resolve: [Object],
+      resolveLoader: [Object],
+      snapshot: [Object],
+      stats: [Object],
+      target: [Object],
+      watch: [Object],
+      watchOptions: [Object]
+    }
+  },
+  headerName: 'Webpack',
+  baseDataPath: 'configuration',
+  postFormatter: [Function: postFormatter]
+}

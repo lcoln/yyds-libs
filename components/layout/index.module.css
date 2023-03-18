@@ -18,6 +18,10 @@
 
 .mod-aside .aside-menu {
   height: calc(100% - 60px);
+  min-width: 220px;
+  max-width: 300px;
+  background: #1B1521;
+
 }
 
 .mod-content {

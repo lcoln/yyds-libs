@@ -4,9 +4,9 @@
  * @Autor: linteng
  * @Date: 2022-04-25 13:09:37
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-05 23:05:01
+ * @LastEditTime: 2023-03-18 18:40:22
  */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import type { NextPage } from 'next';
 import { loading } from '@/context/common';
 import { useAtom } from 'jotai';
@@ -130,10 +130,12 @@ const Home: NextPage = (props) => {
     <aside className={`flex-none ${styles['mod-aside']}`}>
       <div className={styles['aside-logo']}>YYDS-LIBS</div>
       <div className={styles['aside-menu']}>
-        <tree-wc
-          data={JSON.stringify(menu)}
-          color="#b7b7b7"
-        />
+        <Suspense fallback={<p>Loading feed...</p>}>
+          <tree-wc
+            data={JSON.stringify(menu)}
+            color="#b7b7b7"
+          />
+        </Suspense>
       </div>
     </aside>
     <div className={`flex-auto px-10 ${styles['mod-content']}`}>
