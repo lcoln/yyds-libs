@@ -3,7 +3,6 @@ import type { AppProps } from 'next/app';
 import { installWC } from '@yyds-lib/airui';
 import { useRouter } from 'next/router';
 import 'css-doodle';
-import dynamic from 'next/dynamic';
 import Layout from '@/components/layout';
 
 // const { installWC } = dynamic(

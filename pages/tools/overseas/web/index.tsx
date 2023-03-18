@@ -4,7 +4,7 @@
  * @Autor: linteng
  * @Date: 2022-04-22 22:56:53
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-03-18 17:10:40
+ * @LastEditTime: 2023-03-18 18:57:18
  */
 // @ts-ignore
 // @ts-nocheck
@@ -17,7 +17,7 @@ import styles from './index.module.css';
 
 const OWeb: NextPage = () => {
   const [image, setImage] = useState('');
-  const [text, setText] = useState('');
+  const [text] = useState('');
   const canvasRef = useRef(null);
   const imageRef = useRef(null);
 
