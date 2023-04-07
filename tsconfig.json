@@ -16,11 +16,13 @@
     "incremental": true,
     "baseUrl": "./",
     "paths": {
-      "@artifacts/*": ["artifacts/*"],
       "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/assets/*": ["assets/*"],
       "@/utils/*": ["utils/*"],
       "@/pages/*": ["pages/*"],
-      "@/context/*": ["context/*"]
+      "@/context/*": ["context/*"],
+      "@/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

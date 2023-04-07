@@ -1,1 +1,0 @@
-import o from"./package/tools/index.js";import e from"./package/wc/index.js";export{default as fetch}from"./package/tools/fetch/index.esm.js";export{default as router}from"./package/tools/router/index.esm.js";export const installWC=(o,t)=>e(o,t);export const installTool=e=>o(e);

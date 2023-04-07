@@ -1,0 +1,8 @@
+/* 隐藏原生下拉框 */
+.custom-select select {
+  /* display: none; */
+  padding-right: 10px;
+  margin-left: 15px;
+  background: none;
+  outline: none;
+}

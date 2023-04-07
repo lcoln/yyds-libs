@@ -1,10 +1,6 @@
 {
   "version": "v1",
   "packages": {
-    "@yyds-lib/airui": {
-      "signature": "c2c9eb767e04855564543ea5efd492e6",
-      "file": true
-    },
     "@bd/ui": {
       "signature": "8912d17efab6df68ab6378d883d3d169",
       "file": true

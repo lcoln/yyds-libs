@@ -1,24 +1,15 @@
 /** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['@yyds-lib/airui']);
+const UnoCSS = require("@unocss/webpack").default;
+const presetAttributify = require("@unocss/preset-attributify").default;
 
 const nextConfig = {
-  reactStrictMode: true,
-  // experimental: {
-  //   runtime: 'edge',
-  //   serverComponents: true,
-  //   asyncWebAssembly: true,
-  // },
-  // webpack: (
-  //   config,
-  // ) => {
-  //   // Important: return the modified config
-  //   // console.log(config)
-  //   config.module.rules.push({
-  //     test: /\.wasm$/,
-  //     loaders: ['wasm-loader']
-  //   })
-  //   return config
-  // }
+  // reactStrictMode: true,
+  webpack: (
+    config,
+  ) => {
+    config.plugins.push(UnoCSS({ presets: [presetAttributify()] }));
+    return config
+  }
 }
 
 module.exports = nextConfig
