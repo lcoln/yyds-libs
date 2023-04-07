@@ -4,6 +4,8 @@ import { installWC } from '@yyds-lib/airui';
 import { useRouter } from 'next/router';
 import 'css-doodle';
 import Layout from '@/components/layout';
+// import '@bd/ui/dist/tab';
+// import { useEffect } from 'react';
 
 // const { installWC } = dynamic(
 //   () => {
@@ -13,7 +15,14 @@ import Layout from '@/components/layout';
 // );
 function MyApp({ Component, pageProps }: AppProps) {
   const history = useRouter();
-  console.log({ history });
+  // console.log(9999);
+  // useEffect(() => {
+  //   const importWC = async () => {
+  //     // eslint-disable-next-line import/extensions, import/no-relative-packages
+  //     await import('../.yalc/@bd/ui/dist/tab/index.js');
+  //   };
+  //   importWC();
+  // }, []);
   installWC([{
     name: 'tree-wc',
     config: {

@@ -1,0 +1,22 @@
+{
+  "name": "@bd/ui",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "start": "wcui-cli dev",
+    "build": "wcui-cli build",
+    "build:es6": "wcui-cli build-es6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bd-js/wcui.git"
+  },
+  "author": "yutent",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {},
+  "yalcSig": "8912d17efab6df68ab6378d883d3d169"
+}
