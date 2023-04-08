@@ -4,22 +4,30 @@
  * @Autor: linteng
  * @Date: 2022-04-22 22:56:53
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-04-08 03:04:29
+ * @LastEditTime: 2023-04-08 16:19:37
  */
 import type { NextPage } from 'next';
 import React, { useEffect, useRef, useState } from 'react';
-import Generator from './components/generator';
+import dynamic from 'next/dynamic';
+// import TxtToImg from './components/txt-to-img';
+
+const Generator = dynamic(() => import('./components/generator'), {
+  loading: () => <p>Loading...</p>,
+});
+const TxtToImg = dynamic(() => import('./components/txt-to-img'), {
+  loading: () => <p>Loading...</p>,
+});
 
 const data = [
   {
     key: '1',
     label: '速答模板',
-    children: '',
+    children: Generator,
   },
   {
     key: '2',
-    label: 'Tab 2',
-    children: '',
+    label: '文生图',
+    children: TxtToImg,
   },
   {
     key: '3',
@@ -29,7 +37,7 @@ const data = [
 ];
 const childs: {[key: number]: React.ReactNode} = {
   0: <Generator />,
-  1: '11111',
+  1: <TxtToImg />,
   2: '222222',
 };
 const Tools: NextPage = () => {
@@ -43,7 +51,7 @@ const Tools: NextPage = () => {
     });
     // document.addEventListener
   }, []);
-  return <div className="p-10 pt-16">
+  return <div className="p-10 pt-20">
     <wc-tab
       data={JSON.stringify(data)}
       color="#D34017"

@@ -4,7 +4,7 @@
  * @Autor: linteng
  * @Date: 2023-04-07 23:48:46
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-04-08 03:00:04
+ * @LastEditTime: 2023-04-08 21:17:39
  */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-nested-ternary */
@@ -18,7 +18,7 @@ import {
   createPromptMap,
   textToImageParams,
 } from '@/utils/constants';
-import React, { useState } from 'react';
+import React, { LegacyRef, useRef, useState } from 'react';
 import type { ChatMessage } from '@/types';
 import MessageItem from './messageItem';
 import IconClear from './icons/Clear';
@@ -96,22 +96,20 @@ const FormatTransform = (
     data,
     action,
     select,
-    style,
     type,
   }: {
     title: string,
     data: any[],
     action: Function,
     select: string,
-    style?: object,
     type?: string
   },
 ) => {
   const ref = null;
   const [loading, setLoading] = useState<boolean>(false);
-  return <div className="mt-2 outline-none">
+  return <div className="flex max-w-[320px] items-center justify-between mt-2 outline-none">
       <span>{title}</span>
-      <div className="inline-block ml-4 p-2 align-middle bg-[#292D37]" style={style}>
+      <div className="inline-block ml-4 p-2 align-middle bg-[#292D37]">
         {
           type === 'upload' ? <form
             action="/upload"
@@ -167,7 +165,7 @@ const FormatTransform = (
 
 export default function Generator() {
   // onMount(() => console.log(11111));
-  let inputRef: HTMLTextAreaElement;
+  const inputRef: LegacyRef<HTMLTextAreaElement> | null = useRef(null);
   const [messageList, setMessageList] = useState<ChatMessage[]>([]);
   const [currentAssistantMessage, setCurrentAssistantMessage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -193,7 +191,6 @@ export default function Generator() {
         data={langs}
         select={lang}
         action={setLang}
-        style={{ marginLeft: '63px !important' }}
       />
       <FormatTransform
         title="请选择需要转化的格式"
@@ -249,7 +246,7 @@ export default function Generator() {
   };
 
   const createParams = () => {
-    const inputValue = inputRef.value;
+    const inputValue = inputRef?.current?.value;
 
     // @ts-ignore
     if (window?.umami) umami.trackEvent('chat_generate');
@@ -304,7 +301,7 @@ export default function Generator() {
     let response = {};
 
     try {
-      response = await fetch('/api/generate', {
+      response = await fetch('http://170.106.168.8:3335/zyj/sayU', {
         method: 'POST',
         body: JSON.stringify({
           messages: [
@@ -331,7 +328,7 @@ export default function Generator() {
     let response: {ok?: boolean, statusText?: string, json?: Function} = {};
     const genPrompt = await createData([
       { role: 'system', content: 'You are a helpful assistant that translates Chinese to English.' },
-      { role: 'user', content: `Translate the following Chinese text to English without details and remove symbols: '{${inputRef.value}}'` },
+      { role: 'user', content: `Translate the following Chinese text to English without details and remove symbols: '{${inputRef.current?.value}}'` },
     ], signal, false);
     const genEngPrompt = await outputStream(genPrompt, false);
 
@@ -339,7 +336,7 @@ export default function Generator() {
       response = await fetch('https://sd.c137.run:8001/sdapi/v1/txt2img', {
         method: 'POST',
         // body: JSON.stringify({
-        //   messages: textToImageParams(inputRef.value)
+        //   messages: textToImageParams(inputRef.current?.value)
         // }),
         body: JSON.stringify(textToImageParams(genEngPrompt)),
         headers: {
@@ -361,73 +358,77 @@ export default function Generator() {
   };
 
   const handleButtonClick = async () => {
-    const inputValue = inputRef.value;
-
-    if (!inputValue.trim() && !shortP) {
-      return;
-    }
-    setLoading(true);
-    const { params, signal } = createParams();
-
-    try {
-      const data = await createData(params, signal);
-      inputRef.value = '';
-
-      if (!data) {
-        setLoading(false);
-        alert('暂无数据');
-        throw new Error('No data');
+    const inputValue = inputRef.current?.value;
+    if (inputValue) {
+      if (!inputValue.trim() && !shortP) {
+        return;
       }
+      setLoading(true);
+      const { params, signal } = createParams();
 
-      await outputStream(data);
-    } catch (err) { console.log(err); }
+      try {
+        const data = await createData(params, signal);
+        inputRef.current.value = '';
 
-    setMessageList([
-      ...messageList,
-      {
-        role: 'assistant',
-        content: currentAssistantMessage,
-      },
-    ]);
-    setCurrentAssistantMessage('');
-    setLoading(false);
+        if (!data) {
+          setLoading(false);
+          alert('暂无数据');
+          throw new Error('No data');
+        }
+
+        await outputStream(data);
+      } catch (err) { console.log(err); }
+
+      setMessageList([
+        ...messageList,
+        {
+          role: 'assistant',
+          content: currentAssistantMessage,
+        },
+      ]);
+      setCurrentAssistantMessage('');
+      setLoading(false);
+    }
   };
 
   // text to image
   const handleTTIButtonClick = async () => {
-    const inputValue = inputRef.value;
-
-    if (!inputValue.trim() && !shortP) {
-      return;
-    }
-    setLoading(true);
-    const { params, signal } = createParams();
-    let data = '';
-    try {
-      data = await createImageData(signal);
-      inputRef.value = '';
-
-      if (!data) {
-        setLoading(false);
-        alert('暂无数据');
-        throw new Error('No data');
+    const inputValue = inputRef.current?.value;
+    if (inputValue) {
+      if (!inputValue.trim() && !shortP) {
+        return;
       }
-    } catch (err) { console.log(err); }
+      setLoading(true);
+      const { params, signal } = createParams();
+      let data = '';
+      try {
+        data = await createImageData(signal);
+        inputRef.current.value = '';
 
-    setMessageList([
-      ...messageList,
-      {
-        role: 'assistant',
-        content: data,
-      },
-    ]);
+        if (!data) {
+          setLoading(false);
+          alert('暂无数据');
+          throw new Error('No data');
+        }
+      } catch (err) { console.log(err); }
 
-    setCurrentAssistantMessage('');
-    setLoading(false);
+      setMessageList([
+        ...messageList,
+        {
+          role: 'assistant',
+          content: data,
+        },
+      ]);
+
+      setCurrentAssistantMessage('');
+      setLoading(false);
+    }
   };
 
   const clear = () => {
-    inputRef.value = '';
+    if (inputRef.current) {
+      inputRef.current.value = '';
+    }
     setMessageList([]);
     setCurrentAssistantMessage('');
   };
@@ -435,7 +436,7 @@ export default function Generator() {
     文生图: handleTTIButtonClick,
   };
   return (<>
-    <div className="flex items-end">
+    <div className="flex items-end mt-4">
       {/* <div class="border-[#D34017] border-r mr-8"> */}
       <div>
         {/* <Filter title="快捷提问" data={shortPrompt} setSelect={(v) => {
@@ -445,7 +446,7 @@ export default function Generator() {
         }} disabled={loading} select={shortP} /> */}
         {
           !shortP && <>
-            <Filter title="prompt模板" className="mt-8"
+            <Filter title="prompt模板"
               data={filters} setSelect={(v) => {
                 if (v !== select) {
                   setLoading(false);
@@ -501,7 +502,9 @@ export default function Generator() {
                 return;
               }
               if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
-                inputRef.value += '\n';
+                if (inputRef.current) {
+                  inputRef.current.value += '\n';
+                }
                 return;
               }
               if (e.key === 'Enter' && !e.isComposing) {

@@ -1,3 +1,6 @@
+/* eslint-disable import/no-relative-packages */
+/* eslint-disable import/extensions */
+// eslint-disable-next-line import/extensions, import/no-relative-packages
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import 'css-doodle';
@@ -28,8 +31,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   console.log({ config });
   useEffect(() => {
     const importWC = async () => {
-      // eslint-disable-next-line import/extensions, import/no-relative-packages
       await import('../.yalc/@bd/ui/dist/tab/index.js');
+      await import('../.yalc/@bd/ui/dist/form/input.js');
+      await import('../.yalc/@bd/ui/dist/form/button.js');
     };
     importWC();
   }, []);

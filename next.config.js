@@ -9,7 +9,10 @@ const nextConfig = {
   ) => {
     config.plugins.push(UnoCSS({ presets: [presetAttributify()] }));
     return config
-  }
+  },
+  images: {
+    domains: ['cdn.discordapp.com'],
+  },
 }
 
 module.exports = nextConfig

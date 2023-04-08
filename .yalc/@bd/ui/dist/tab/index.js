@@ -27,25 +27,28 @@ class Tab extends Component {
     this.#label = [...this.$refs.label.children];
     nextTick(() => this.#updateStyle(0));
   }
-  static styles = css`:host{display:flex}.tab-box .label{display:flex}.tab-box .label .item{padding:5px 10px;cursor:pointer}.tab-box .content{margin-top:-1px;border-top:1px solid #ccc}`;
+  static styles = css`:host{display:flex}.tab-box{width:100%}.tab-box .label{margin-bottom:20px}.tab-box .label .item-group{display:flex}.tab-box .label .item-group .item{padding:5px 10px;font-weight:400;cursor:pointer}.tab-box .divider{height:1px;margin-top:-1px;background:#a9a9a9}`;
   render() {
     return html`
-      <div class="tab-box" id="aaaaa">
-        <wc-space>
-          <div class="label" ref="label">
-            ${this.data.map(
+      <div class="tab-box">
+        <div class="label">
+          <wc-space>
+            <div class="item-group" ref="label">
+              ${this.data.map(
       (s, i) => {
         return html`<div 
-                    class="item" 
-                    @click=${this.handleClick} 
-                    data-idx=${i}
-                  >
-                    ${s.label}
-                  </div>`;
+                      class="item" 
+                      @click=${this.handleClick} 
+                      data-idx=${i}
+                    >
+                      ${s.label}
+                    </div>`;
       }
     )}
-          </div>
-        </wc-space>
+            </div>
+          </wc-space>
+          <div class="divider"></div>
+        </div>
         <div class="content">
           ${html`${this.#content}`}
         </div>
