@@ -4,7 +4,7 @@
  * @Autor: linteng
  * @Date: 2023-04-07 23:48:46
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-04-08 21:17:39
+ * @LastEditTime: 2023-06-18 22:45:07
  */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-nested-ternary */
@@ -20,6 +20,7 @@ import {
 } from '@/utils/constants';
 import React, { LegacyRef, useRef, useState } from 'react';
 import type { ChatMessage } from '@/types';
+import { chatgpt } from '@/model/ai';
 import MessageItem from './messageItem';
 import IconClear from './icons/Clear';
 import LoadingSvg from './loading';
@@ -225,11 +226,13 @@ export default function Generator() {
       const shouldUpdateScrollTop = document.body.scrollHeight - viewHeight === heightTop;
 
       const { value, done: readerDone } = await reader.read();
+      console.log({ value });
       if (value) {
         const char = decoder.decode(value);
         if (char === '\n' && currentAssistantMessage.endsWith('\n')) {
           continue;
         }
+        console.log({ char, currentAssistantMessage });
         if (char) {
           updateAssistant && setCurrentAssistantMessage(currentAssistantMessage + char);
           result += char;
@@ -297,11 +300,11 @@ export default function Generator() {
     return { params, signal };
   };
 
-  const createData = async (params, signal, useMessageList = true) => {
+  const createData = async (params, signal, useMessageList = true, closeLoading = true) => {
     let response = {};
 
     try {
-      response = await fetch('http://170.106.168.8:3335/zyj/sayU', {
+      response = await fetch('/api/generate', {
         method: 'POST',
         body: JSON.stringify({
           messages: [
@@ -313,13 +316,14 @@ export default function Generator() {
       });
 
       if (!response.ok) {
-        setLoading(false);
+        closeLoading && setLoading(false);
         alert('网络错误');
         throw new Error(response.statusText);
       }
     } catch (e) {
-      console.log(e);
+      console.log(e, 111111111);
     }
+    console.log({ response });
 
     return response.body;
   };
@@ -435,6 +439,7 @@ export default function Generator() {
   const methods: { [key: string]: Function} = {
     文生图: handleTTIButtonClick,
   };
+  console.log({ messageList });
   return (<>
     <div className="flex items-end mt-4">
       {/* <div class="border-[#D34017] border-r mr-8"> */}

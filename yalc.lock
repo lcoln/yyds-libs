@@ -4,6 +4,10 @@
     "@bd/ui": {
       "signature": "0412c9ceb90b6516d28b168623972cd5",
       "file": true
+    },
+    "@tencent/feone-common-lib": {
+      "signature": "572257715659e266811dd5396a306930",
+      "file": true
     }
   }
 }

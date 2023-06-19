@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       await import('../.yalc/@bd/ui/dist/tab/index.js');
       await import('../.yalc/@bd/ui/dist/form/input.js');
       await import('../.yalc/@bd/ui/dist/form/button.js');
+      await import('../.yalc/@bd/ui/dist/icon');
     };
     importWC();
   }, []);
